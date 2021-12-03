@@ -1,0 +1,23 @@
+.overflow{
+    height: 50%;
+    overflow: hidden;
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+}
+
+.overflow .card-img-top:hover{
+    transform: scale(1.4);
+}
+
+#nprogress .bar {
+    background: #ff5367 !important;
+}
+
+#nprogress .spiner-icon {
+    border-top-color: rgba(0,0,0,0);
+    border-left-color:  rgba(0,0,0,0);
+
+}
